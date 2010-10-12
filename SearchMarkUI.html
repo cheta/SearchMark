@@ -2,7 +2,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>SearchMark</title>
-<link rel="shortcut icon" href="logo.png"> 
+<link rel="shortcut icon" href="logo48.png"> 
 <link href="style.css" rel="stylesheet" type="text/css">
 <script language="Javascript">
 
@@ -94,7 +94,7 @@ function firstLayout(){
     mainContent = document.createElement("div");
     mainContent.setAttribute('id','mainContent');
     mString = '<div align="center">'+
-               '<h1><img src="logoLarge.png" alt="sm" width="39" height="39" align="absbottom"> SearchMark'+ 
+               '<h1><img src="logo128.png" alt="sm" width="65" align="center"> SearchMark'+ 
 	       '</h1>'+
                '<p>'+
 		 '<input name="searchBox" type="text" size="50" id="searchBox" onkeydown="if (event.keyCode == 13) document.getElementById(\'searchButton\').click()"/>'+
@@ -123,7 +123,7 @@ function secondLayout(){
     headerContent = document.createElement("div");
     headerContent.setAttribute('id','header');
     hString = '<h1 align="center">'+
-          '<img src="logoLarge.png" alt="sm" width="39" height="39" align="absbottom"> SearchMark'+ 
+          '<img src="logo128.png" alt="sm" width="55" align="center"> SearchMark'+ 
           '<img src="space.png" width="7" height="1">'+      
           '<input name="searchBox" type="text" size="50" id="searchBox" onkeydown="if (event.keyCode == 13) document.getElementById(\'searchButton\').click()"/>'+
           '<img src="space.png" width="7" height="1">'+
@@ -153,7 +153,7 @@ function secondLayout(){
 
     footerContent = document.createElement("div");
     footerContent.setAttribute('id','footer');
-    fString = '<p align="right" class="SmallText">Gnu License &lt;URL here&gt; &lt;release here&gt;</p>';
+    fString = '<p align="right" class="SmallText">Gnu General Public License Version 3 &copy; 2010 SearchMark</p>';
     footerContent.innerHTML = fString;
 
     containerID.appendChild(headerContent);
